@@ -1,0 +1,116 @@
+.partners {
+  margin-bottom: 100px;
+}
+
+.partners__logo {
+  margin-bottom: 145px;
+}
+
+.partners__logo-title {
+  color: #6C5CCC;
+
+  &::before {
+    background-color: #6C5CCC;
+  }
+}
+
+.partners__icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
+
+.partners__item {
+  border-bottom: 1px solid #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+}
+
+
+.partners__icons .partners__item:nth-child(1) {
+  padding: 89px 100px;
+}
+
+.partners__icons .partners__item:nth-child(2) {
+  padding: 101px 100px;
+}
+
+.partners__icons .partners__item:nth-child(3) {
+  padding: 111px 75px;
+}
+
+.partners__icons .partners__item:nth-child(4) {
+  padding: 88px 100px;
+}
+
+.partners__icons .partners__item:nth-child(5) {
+  padding: 111px 75px;
+}
+
+.partners__icons .partners__item:nth-child(6) {
+  padding: 106px 76px;
+}
+
+.partners__icons .partners__item:nth-child(7) {
+  padding: 113px 75px;
+}
+
+.partners__icons .partners__item:nth-child(8) {
+  padding: 115px 80px;
+}
+
+.partners__icons .partners__item:nth-child(4) {
+  border-right: none;
+}
+
+.partners__icons .partners__item:nth-child(8) {
+  border-right: none;
+}
+
+.partners__icons .partners__item:nth-child(+n+5) {
+  border-bottom: none;
+}
+
+@media (max-width: 1145px) {
+
+  .partners__icons {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .partners__icons .partners__item:nth-child(2) {
+    border-right: none;
+  }
+
+  .partners__icons .partners__item:nth-child(8) {
+    border-right: none;
+  }
+
+  .partners__icons .partners__item:nth-child(5) {
+    border-bottom: 1px solid #e2e2e2;
+  }
+  .partners__icons .partners__item:nth-child(6) {
+    border-right: none;
+    border-bottom: 1px solid #e2e2e2;
+  }
+
+  .partners__icons .partners__item:nth-child(7) {
+    border-right: 1px solid #e2e2e2;
+  }
+}
+
+@media (max-width: 610px) {
+
+  .partners__icons {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-self: center;
+  }
+  .partners__icons .partners__item:nth-child(even) {
+    border-right: none;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  .partners__icons .partners__item:nth-child(odd) {
+    border-right: none;
+    border-bottom: 1px solid #e2e2e2;
+  }
+}

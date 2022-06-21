@@ -1,0 +1,89 @@
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+.header__nav {
+  @include justifyBetween;
+  padding: 30px 40px;
+}
+
+@media (max-width: 550px) {
+  .header__nav {
+    padding: 30px 15px
+  }
+}
+
+.header__logo {
+  @include flex;
+
+  span,
+  span::before,
+  span::after {
+    display: block;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  span::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    top: -5px;
+  }
+  span::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    top: 5px;
+  }
+  span {
+    content: '';
+    position: relative;
+    width: 8px;
+  }
+
+  a{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 6px;
+  }
+}
+
+.header__menu {
+  @include flex;
+
+  span,
+  span::after {
+    display: block;
+    width: 10px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  span {
+    position: relative;
+    top: -2px;
+  }
+  span::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -10px;
+  }
+  button {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin-left: 10px;
+  }
+}

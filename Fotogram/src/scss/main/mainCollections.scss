@@ -1,0 +1,108 @@
+.collections__logo-title {
+  color: #6C5CCC;
+
+  &::before {
+    background-color: #6C5CCC;
+  }
+}
+
+.collections__logo-subtitle {
+  margin-bottom: 39px;
+}
+
+.collections__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 29px;
+  margin-bottom: 120px;
+}
+
+@media (max-width: 1120px) {
+  .collections__cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 735px) {
+  .collections__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.collections__card {
+  background-color: #FAFAFA;
+  max-width: 345px;
+}
+
+.card__info {
+  font-family: SpaceGrotesk;
+  max-width: 284px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 30px;
+
+  & span, h2 {
+    margin-bottom: 10px;
+  }
+
+  span {
+    color: #7a7a7a;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+  }
+  a {
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 22px;
+    color: #7a7a7a;
+    text-decoration: underline;
+  }
+}
+
+.collections__desc {
+  background: linear-gradient(152.07deg, #2E2E2E 8.37%, #000000 87.4%);
+  margin-bottom: 140px;
+  
+  ._container {
+    padding: 160px 15px;
+  }
+}
+
+.collections__review {
+  margin-bottom: 30px;
+  font-family: Poppins;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 2px;
+  
+  img {
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+  h4{
+    font-size: 14px;
+    line-height: 12px;
+  }
+}
+
+.collections__item p{
+      font-size: 24px;
+      line-height: 26px;
+      font-weight: 400;
+      font-style: italic;
+      max-width: 729px;
+      color: #fff;
+}

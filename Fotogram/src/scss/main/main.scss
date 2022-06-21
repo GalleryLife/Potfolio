@@ -1,0 +1,11 @@
+.main {
+  position: relative;
+  flex: 1 1 auto;
+}
+
+@import '../main/mainAuthors.scss';
+@import '../main/mainOurMission.scss';
+@import '../main/mainPhotoIdeology.scss';
+@import '../main/mainPhotoBook.scss';
+@import '../main/mainCollections.scss';
+@import '../main/mainPartners.scss';

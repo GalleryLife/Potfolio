@@ -1,0 +1,26 @@
+@import 'reset';
+@import 'helpers';
+@import "fonts";
+@import './libs/slick';
+
+@import './header/header';
+@import './main/main';
+@import './footer/footer';
+
+body {
+  font-family: Roboto, Poppins, SpaceGrotesk;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.wrapper {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+
+._container {
+  @include container;
+}

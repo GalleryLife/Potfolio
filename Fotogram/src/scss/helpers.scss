@@ -1,0 +1,20 @@
+$baseColor: #7A66CC;
+
+
+@mixin container {
+ max-width: 1120px;
+ margin: 0 auto;
+ padding: 0 15px; 
+ box-sizing: content-box;
+}
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+
+@mixin justifyBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
