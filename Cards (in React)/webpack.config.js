@@ -53,7 +53,6 @@ module.exports = {
 								use: [
 										miniCssExtractPlugin.loader,
 										'css-loader',
-										'stylelint',
 										'postcss-loader',
 										'sass-loader',
 								]
