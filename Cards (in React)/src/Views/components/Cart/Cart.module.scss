@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+}
+
+.item__img {
+  margin-right: 15px;
+}
+
+.item__desc {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-weight: 600;
+    line-height: 25px;
+  }
+
+  span {
+    margin-bottom: 10px;
+  }
+}
+
+.item__action {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+}

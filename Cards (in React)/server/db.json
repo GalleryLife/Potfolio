@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "name": "2020 Mazda 3 G20 Evolve BP Series Auto",
+      "price": "32,888",
+      "id": 1,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, fuga. Repudiandae non ut inventore provident quaerat beatae iusto minima esse ratione, accusantium earum sunt asperiores molestiae minus aliquid culpa quos.",
+      "img": "https://carsales.pxcrush.net/carsales//cars/dealer/5kp0apkiothrh5ae85xcxvpvm.jpg?pxc_method=gravityfill&pxc_bgtype=self&pxc_size=720,480"
+    },
+    {
+      "name": "2021 Toyota Landcruiser Prado GXL Auto 4x4",
+      "price": "78,777",
+      "id": 2,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, fuga. Repudiandae non ut inventore provident quaerat beatae iusto minima esse ratione, accusantium earum sunt asperiores molestiae minus aliquid culpa quos.",
+      "img": "https://carsales.pxcrush.net/carsales//car/dealer/62srgzu7h3cxipd956wznb6pv.jpg?pxc_method=gravityfill&pxc_bgtype=self&pxc_size=720,480"
+    },
+    {
+      "name": "2006 Mazda MX-5 NC Series 1 Manual",
+      "price": "19,990",
+      "id": 3,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, fuga. Repudiandae non ut inventore provident quaerat beatae iusto minima esse ratione, accusantium earum sunt asperiores molestiae minus aliquid culpa quos.",
+      "img": "https://carsales.pxcrush.net/carsales//cars/private/946u50rx6064q1bzfxejsn7so.jpg?pxc_method=gravityfill&pxc_bgtype=self&pxc_size=720,480"
+    },
+    {
+      "name": "2019 Mazda 6 GT GL Series Auto",
+      "price": "44,290",
+      "id": 4,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, fuga. Repudiandae non ut inventore provident quaerat beatae iusto minima esse ratione, accusantium earum sunt asperiores molestiae minus aliquid culpa quos.",
+      "img": "https://carsales.pxcrush.net/carsales//car/dealer/abd4sotr432g56qglmus23321.jpg?pxc_method=gravityfill&pxc_bgtype=self&pxc_size=720,480"
+    },
+    {
+      "name": "2019 Ford Everest Titanium UA II Auto 4WD MY19.75",
+      "price": "67,499",
+      "id": 5,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, fuga. Repudiandae non ut inventore provident quaerat beatae iusto minima esse ratione, accusantium earum sunt asperiores molestiae minus aliquid culpa quos.",
+      "img": "https://carsales.pxcrush.net/carsales//cars/dealer/cv9u8kjxsn49vercp3l8w3t5w.jpg?pxc_method=gravityfill&pxc_bgtype=self&pxc_size=720,480"
+    },
+    {
+      "name": "2016 Land Rover Range Rover Sport SDV6 SE Auto 4x4 MY16.5",
+      "price": "79,000",
+      "id": 6,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, fuga. Repudiandae non ut inventore provident quaerat beatae iusto minima esse ratione, accusantium earum sunt asperiores molestiae minus aliquid culpa quos.",
+      "img": "https://carsales.pxcrush.net/carsales//cars/private/e5wifjvak68ca26m3ymnlt17.jpg?pxc_method=gravityfill&pxc_bgtype=self&pxc_size=720,480"
+    },
+    {
+      "name": "2021 Mercedes-Benz C-Class C200 Auto",
+      "price": "76,425",
+      "id": 7,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, fuga. Repudiandae non ut inventore provident quaerat beatae iusto minima esse ratione, accusantium earum sunt asperiores molestiae minus aliquid culpa quos.",
+      "img": "https://carsales.pxcrush.net/carsales//car/dealer/4131ed4c2e90b45c108b50bd7c0ad7e6.jpg?pxc_method=gravityfill&pxc_bgtype=self&pxc_size=720,480"
+    },
+    {
+      "name": "2018 SKODA Superb 162TSI Auto MY18.5",
+      "price": "38.590",
+      "id": 8,
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, fuga. Repudiandae non ut inventore provident quaerat beatae iusto minima esse ratione, accusantium earum sunt asperiores molestiae minus aliquid culpa quos.",
+      "img": "https://carsales.pxcrush.net/carsales//car/dealer/ld20sgvp8ip5yatbgig2mbrp.jpg?pxc_method=gravityfill&pxc_bgtype=self&pxc_size=720,480"
+    }
+  ]
+}

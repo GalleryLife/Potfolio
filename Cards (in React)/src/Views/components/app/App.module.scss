@@ -1,0 +1,14 @@
+@import '../../_helpers/reset.scss';
+@import '../../_helpers/variables.scss';
+
+
+.container {
+  @include container;
+  margin-top: 50px;
+}
+
+.spin {
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
